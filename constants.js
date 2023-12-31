@@ -12,4 +12,4 @@ export const TOOLBAR_OPTIONS = {
     ["clean"],
   ],
 };
-export const SOCKET_URL = "https://google-docs-backend-x1r1.onrender.com";
+export const SOCKET_URL = "https://collaborawrite-backend.onrender.com/";

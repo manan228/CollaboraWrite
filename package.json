@@ -1,7 +1,7 @@
 {
-  "name": "CollaboraWrite",
+  "name": "syncwrite",
   "version": "1.0.0",
-  "description": "CollaboraWrite is a similar to google docs which provides with similar functionality in real time",
+  "description": "syncwrite is a similar to google docs which provides with similar functionality in real time",
   "homepage": "https://google-docs-frontend.netlify.app/",
   "scripts": {
     "start": "npx parcel index.html",
