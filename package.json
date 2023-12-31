@@ -1,0 +1,30 @@
+{
+  "name": "CollaboraWrite",
+  "version": "1.0.0",
+  "description": "CollaboraWrite is a similar to google docs which provides with similar functionality in real time",
+  "homepage": "https://google-docs-frontend.netlify.app/",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html && cp _redirects dist/_redirects",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manan Shah",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.21.1",
+    "socket.io-client": "^4.7.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 4 versions",
+    "not dead"
+  ]
+}
